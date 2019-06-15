@@ -1,0 +1,10 @@
+
+<suite name="Suite3">
+  <test name="Test3">
+   <!--  parameter name="MyName" value="Automation"></parameter> -->
+  
+   <classes>
+    <class name="demo.TestNGParametersDemo"> </class>
+   </classes>
+  </test> 
+</suite> 

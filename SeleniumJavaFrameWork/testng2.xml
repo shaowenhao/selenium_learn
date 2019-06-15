@@ -1,0 +1,23 @@
+
+<suite name="Suite2">
+  <test name="Test2">
+ 
+
+     <groups>
+     <!--define name="Regression1">
+       <include name="smoke"> </include>    
+     </define>
+     <run>
+      <include name="Regression1"></include>
+     </run -->
+       <run>
+        <include name="sanity"></include>
+        <exclude name="regression"></exclude>
+       </run>
+     </groups>
+     
+    <classes>
+      <class name="demo.TestNGGroupsDemo"/>
+    </classes>
+  </test>
+</suite>

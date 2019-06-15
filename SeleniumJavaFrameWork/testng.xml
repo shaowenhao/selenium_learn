@@ -1,0 +1,14 @@
+
+<suite thread-count="3" name="Suite1" parallel="classes" >
+  <test name="Test1">
+     <parameter name="browser" value="chrome"></parameter> 
+    <classes>
+      <class name="test.TestNGDemo"/>
+      <class name="test.TestNGDemo2">
+      <methods>
+        <include name="testCase3"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+</suite>
